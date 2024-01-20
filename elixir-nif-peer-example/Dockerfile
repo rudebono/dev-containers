@@ -10,6 +10,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
     gnupg=2.2.27-3ubuntu2.1 \
     unzip=6.0-26ubuntu3.1 \
     inotify-tools=3.22.1.0-2 \
+    btop=1.2.3-2 \
     #
     # features
     && curl -sSL https://github.com/devcontainers/features/archive/refs/heads/main.zip -o /tmp/features-main.zip \
